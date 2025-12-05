@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/local-food-order-platform-220488-220497/food_delivery_frontend"
+}
