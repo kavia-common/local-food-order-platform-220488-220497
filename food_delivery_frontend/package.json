@@ -1,15 +1,19 @@
 {
-  "name": "lightningjs",
-  "version": "0.1.0",
-  "description": "lightningjs",
+  "name": "food-delivery-front",
+  "version": "1.0.0",
+  "description": "LightningJS (Blits) frontend for the Food Delivery app",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "npm run dev",
-    "lint": "eslint '**/*.js'",
-    "lint:fix": "eslint '**/*.js' --fix",
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite dev"
+    "preview": "vite preview --host",
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "eslint '**/*.js' --fix"
+  },
+  "dependencies": {
+    "@lightningjs/blits": "1.29.2"
   },
   "devDependencies": {
     "vite": "5.4.8",
@@ -21,9 +25,6 @@
     "globals": "15.9.0",
     "lint-staged": "15.2.10",
     "prettier": "3.3.3"
-  },
-  "dependencies": {
-    "@lightningjs/blits": "1.29.2"
   },
   "lint-staged": {
     "*.js": [
